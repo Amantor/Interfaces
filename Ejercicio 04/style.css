@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+.flex-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caja {
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 480px;
+    height: 480px;
+    line-height: 480px;
+    margin: 10px;
+}
